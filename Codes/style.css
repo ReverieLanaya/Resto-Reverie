@@ -310,20 +310,35 @@ h2 {
 .footer {
     display: flex;
     justify-content: space-around;
+    background-color: #b43939;
+    color: white;
+    padding-top: 20px;
+    margin-top: -20px;
+    padding-bottom: 30px;
 }
 
 .media {
     width: 20%;
 }
 .media div {
-    margin-bottom: 15%;
+    margin-bottom: 25%;
+}
+
+.media img {
+    margin-left: 20%;
+}
+
+.media :first-child, .media :nth-child(2) {
+    margin-bottom: 5%;
 }
 
 .media button {
     text-align: left;
     border: none;
-    background-color: white;
     font-size: 1.7vw;
+    background-color: #b43939;
+    color: white;
+
 }
 
 .Flogo {
